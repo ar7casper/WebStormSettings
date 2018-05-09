@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="stor" value="'use strict';&#10;&#10;import {&#10;  action,&#10;  computed,&#10;  observable,&#10;} from 'mobx';&#10;&#10;class $VAR$ {&#10;  @observable foo = '';&#10;  &#10;  constructor () {&#10;$END$&#10;  }&#10;&#10;  init () {&#10;    &#10;  }&#10;  &#10;  updateInfo() {}&#10;  &#10;  @computed get bar() {&#10;    &#10;  }&#10;  &#10;  @action baz = () =&gt; {&#10;    &#10;  }&#10;}&#10;&#10;export default $VAR$;&#10;&#10;" description="mobx store" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
