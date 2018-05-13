@@ -5,4 +5,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="dumb" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;import { css } from 'emotion';&#10;&#10;const propTypes = {&#10;  dummy: PropTypes.string,&#10;};&#10;&#10;const $VAR$ = (props) =&gt; {&#10;  return (&#10;    &lt;div className={styles.root}&gt;&#10;      $VAR$$END$&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;&#10;const styles = {&#10;  root: css({})&#10;};&#10;&#10;$VAR$.propTypes = propTypes;&#10;&#10;export default $VAR$;" description="Basic Presentational Component" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
