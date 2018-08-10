@@ -6,6 +6,7 @@
     <option name="isContrastMode" value="true" />
     <option name="accentColor" value="80cbc4" />
     <option name="userId" value="-6d1aac84:1650a55d029:-7fff" />
+    <option name="allowDataCollection" value="true" />
     <option name="isWizardShown" value="true" />
   </component>
 </application>
