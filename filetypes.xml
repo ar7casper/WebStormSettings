@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="sePayPoweredByLight.svg" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="stylus" type="PLAIN_TEXT" />
       <mapping ext="mdx" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
