@@ -12,4 +12,11 @@
     </context>
   </template>
   <template name="imsty" value="import styled from '@emotion/styled';" description="import styled" toReformat="false" toShortenFQNames="true" />
+  <template name="dumbts" value="import * as React from 'react';&#10;import styled from '@emotion/styled';&#10;&#10;interface $VAR1$Props {&#10;&#10;}&#10;&#10;export const $VAR1$: React.FunctionComponent&lt;$VAR1$Props&gt; = ({}) =&gt; {&#10;  return (&#10;    &lt;div&gt;$VAR$$END$&lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default $VAR1$;&#10;" description="Dumb w/ TS &amp;  Styled" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
