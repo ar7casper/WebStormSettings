@@ -19,4 +19,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="reacttestts" value="import * as React from 'react';&#10;import { renderThemeComponent } from &quot;../../test-utils/renderThemeComponent&quot;;&#10;import $VAR$ from './$VAR$';&#10;&#10;describe('&lt;$VAR$ /&gt;', () =&gt; {&#10;  test('should match snapshot', () =&gt; {&#10;    const { container } = renderThemeComponent(() =&gt; &lt;$VAR$&gt;Hello&lt;/$VAR$&gt;);&#10;&#10;    expect(container.firstChild).toMatchSnapshot();&#10;  });&#10;&#10;  test('&lt;$VAR$ /&gt; base styles', () =&gt; {&#10;    // const { container } = renderThemeComponent(() =&gt; &lt;$VAR$&gt;Hello&lt;/$VAR$&gt;);&#10;&#10;// expect(container.firstChild).toHaveStyle(`&#10;//  &#10; //`);&#10;  });&#10;&#10;});&#10;" description="React basic test file" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
