@@ -1,0 +1,8 @@
+<templateSet group="Zen CSS">
+  <template name="basestory" value="import * as React from 'react';&#10;import { storiesOf } from '@storybook/react';&#10;import $VAR$ from './$VAR$';&#10;&#10;storiesOf('Bricks|$VAR$', module)&#10;  .add('Base', () =&gt; {&#10;    return (&#10;        &lt;$VAR$&gt;&#10;          $END$&#10;        &lt;/$VAR$&gt;&#10;    );&#10;  });&#10;" description="Basic Story" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
