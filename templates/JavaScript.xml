@@ -25,4 +25,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="storyts" value="import * as React from 'react';&#10;import {storiesOf} from &quot;@storybook/react&quot;;&#10;import $VAR$ from &quot;./$VAR$&quot;;&#10;&#10;storiesOf('$END$', module)&#10;    .add('Base', () =&gt; {&#10;        return (&#10;            &lt;$VAR$/&gt;&#10;        );&#10;    });&#10;" description="Storybookk" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
